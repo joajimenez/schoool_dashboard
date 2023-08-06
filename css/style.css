@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins&family=Roboto&family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 48;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  background-color: #14121e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main {
+  width: 80%;
+  height: 100%;
+  background-color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  color: #fff;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  /* justify-items: center; */
+  font-family: 'roboto mono', monospace;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+span {
+  padding-right: 0.3rem;
+}
+
+.logo {
+  font-family: 'Borel', serif;
+  font-size: 3rem;
+  color: #fff;
+  margin-left: 1.5rem;
+}
