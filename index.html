@@ -16,48 +16,53 @@
         <h2 class="logo">mySchoool</h2>
         <ul>
           <li><span class="material-symbols-rounded"> home </span>Home</li>
-          <li><span class="material-symbols-rounded">
-            calendar_month
-            </span>Schedule</li>
-          <li><span class="material-symbols-rounded">
-            backpack
-            </span>Courses</li>
-          <li><span class="material-symbols-rounded">
-            chat
-            </span>Messages</li>
-          <li><span class="material-symbols-rounded">
-            task
-            </span>Tasks</li>
-          <li><span class="material-symbols-rounded">
-            communities
-            </span>Communities</li>
+          <li>
+            <span class="material-symbols-rounded"> calendar_month </span
+            >Schedule
+          </li>
+          <li>
+            <span class="material-symbols-rounded"> backpack </span>Courses
+          </li>
+          <li><span class="material-symbols-rounded"> chat </span>Messages</li>
+          <li><span class="material-symbols-rounded"> task </span>Tasks</li>
+          <li>
+            <span class="material-symbols-rounded"> communities </span
+            >Communities
+          </li>
         </ul>
         <ul>
-          <li><span class="material-symbols-rounded">
-            account_circle
-            </span>Profile</li>
-          <li><span class="material-symbols-rounded">
-            settings
-            </span>Settings</li>
-          <li><span class="material-symbols-rounded">
-            logout
-            </span>Logout</li>
+          <li>
+            <span class="material-symbols-rounded"> account_circle </span
+            >Profile
+          </li>
+          <li>
+            <span class="material-symbols-rounded"> settings </span>Settings
+          </li>
+          <li><span class="material-symbols-rounded"> logout </span>Logout</li>
         </ul>
       </div>
       <main>
-        <header>
-          
-          <nav>
-            <h3>My Classes</h3>
-            <div class="search-bar"></div>
-            <div class="user">
-              <div class="user-img"></div>
-              <div class="user-name">John Doe</div>
-            </div>
-          </nav>
-        </header>
+        <nav>
+          <h1>My Classes</h1>
+          <div class="search-bar-container">
+            <span class="material-symbols-rounded"> search </span>
+            <input type="text" placeholder="Search" id="search-bar-input" />
+          </div>
+          <div class="user-container">
+            <img
+              src="./assets/avatartion.png"
+              alt="user-image"
+              id="user-image"
+            />
+            <p class="user-name">Jane Doe</p>
+          </div>
+        </nav>
+
+        <div class="my-classes"></div>
+        <div class="events"></div>
+        <div class="tasks"></div>
+        <div class="performace"></div>
       </main>
-      <footer></footer>
     </div>
   </body>
 </html>
