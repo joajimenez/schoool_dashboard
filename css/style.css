@@ -13,6 +13,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
 .material-symbols-rounded {
   font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 48;
 }
@@ -73,9 +79,9 @@ span {
 
 main {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.5fr 2fr 2fr;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   grid-template-areas:
     'nav nav'
     'my-classes events'
@@ -90,29 +96,6 @@ nav {
   align-items: center;
   padding: 0 1rem;
   grid-area: nav;
-}
-
-.my-classes {
-  border: 1px solid red;
-  grid-area: my-classes;
-}
-.events {
-  border: 1px solid red;
-  grid-area: events;
-}
-.tasks {
-  border: 1px solid red;
-  grid-area: tasks;
-}
-.performace {
-  border: 1px solid red;
-  grid-area: performance;
-}
-
-h1 {
-  font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
 }
 
 .search-bar-container {
@@ -153,6 +136,8 @@ h1 {
 }
 
 .my-classes {
+  /* border: 1px solid red; */
+  grid-area: my-classes;
   background-color: #fff;
   border-radius: 1rem;
   padding: 1rem;
@@ -170,7 +155,7 @@ h1 {
   padding: 1rem;
 }
 
-.card img {
+img {
   width: 4rem;
   height: 4rem;
 }
@@ -204,4 +189,62 @@ h1 {
 
 .card-3 {
   background-color: #e2ffef;
+}
+.events {
+  border: 1px solid red;
+  grid-area: events;
+}
+
+.tasks {
+  border: 1px solid red;
+  grid-area: tasks;
+  padding: 1rem;
+}
+
+.tasks .buttons-container {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.tasks button {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  color: rgb(68, 68, 68);
+  background-color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tasks button:hover {
+  color: #fff;
+  background-color: black;
+  font-weight: 600;
+}
+
+.task {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.additional-info-container {
+  display: flex;
+  justify-content: space-between;
+  /* display: none; */
+}
+
+.performace {
+  border: 1px solid red;
+  grid-area: performance;
 }
