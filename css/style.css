@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  /* font-size: 2rem; */
+ 
   font-weight: 800;
 }
 
@@ -33,16 +33,6 @@ h1 {
   flex-direction: column;
   padding-top: 3rem;
 }
-
-/* main {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 10% 45% 45%;
-  grid-template-areas:
-    'nav nav'
-    'my-classes events'
-    'tasks performance';
-} */
 
 ul {
   list-style: none;
