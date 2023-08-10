@@ -12,14 +12,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Roboto Mono', sans-serif;
-  font-weight: 800;
 }
 
 h2 {
   text-decoration: underline;
-  font-family: 'Roboto Mono', sans-serif;
 }
 
 .material-symbols-rounded {
